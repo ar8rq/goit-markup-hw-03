@@ -8,7 +8,15 @@ img {
   display: block;
 }
 
+
 /*                     header                 */
+
+.header-container {
+  display: flex;
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px 0 15px 0;
+}
 
 .header-border {
   border-bottom: 1px solid #e7e9fc;
@@ -16,12 +24,6 @@ img {
 
 .header-border-div {
   display: flex;
-}
-
-.container {
-  width: 1158px;
-  margin: 0 auto;
-  padding: 0 15px 0 15px;
 }
 
 .header-nav-container {
@@ -40,10 +42,8 @@ img {
 
 .header-spisok {
   margin-right: 40px;
-  padding: 24px 0 24px 0;
+  padding: 24px 0;
 }
-
-
 
 .header-container-contact {
   display: flex;
@@ -106,6 +106,10 @@ img {
 .sec-one {
   background-color: #2e2f42;
   padding: 188px 0 188px 0;
+}
+
+.sec-one-container {
+
 }
 
 .sec-one-text {
