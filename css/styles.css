@@ -10,6 +10,42 @@ img {
 
 /*                     header                 */
 
+.header-border {
+  border-bottom: 1px solid #e7e9fc;
+}
+
+.header-border-div {
+  display: flex;
+}
+
+.container {
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px 0 15px;
+}
+
+.header-conteiner {
+  display: flex;
+  align-items: center;
+}
+
+.header-container-logo {
+  margin-right: 76px
+}
+
+.header-container-spisok {
+  display: flex;
+  gap: 40px;
+}
+
+.header-spisok {
+  margin-right: 40px;
+}
+
+.header-spisok-mar {
+  margin-right: 0;
+}
+
 .highlight {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -38,7 +74,7 @@ img {
 }
 
 .header-contact {
-  font-style: normal
+  font-style: normal;
 }
 
 .contact {
@@ -64,7 +100,7 @@ img {
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
-  color: #ffffff
+  color: #ffffff;
 }
 
 .sec-one-button {
