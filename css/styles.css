@@ -158,6 +158,7 @@ img {
 .sec-two-container {
   display: flex;
   gap: 24px;
+  width: calc((100% - 72px) / 4);
 }
 
 .sec-two-zagolovok {
@@ -178,7 +179,6 @@ img {
 
 .sec-two-container-spisok {
   margin-right: 24px;
-  width: calc((100% - 72px) / 4);
 }
 
 
