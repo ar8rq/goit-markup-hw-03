@@ -24,7 +24,7 @@ img {
   padding: 0 15px 0 15px;
 }
 
-.header-conteiner {
+.header-nav-container {
   display: flex;
   align-items: center;
 }
@@ -93,6 +93,7 @@ img {
 
 .sec-one {
   background-color: #2e2f42;
+  padding: 188px 0 188px 0;
 }
 
 .sec-one-text {
