@@ -4,6 +4,10 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+img {
+  display: block;
+}
+
 /*                     header                 */
 
 .highlight {
