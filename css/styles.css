@@ -105,12 +105,15 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  padding: 24px 0 24px;
 }
 
 .contact:hover,
 .contact:focus {
   color: #404bbf;
+}
+
+.spisok-pad {
+  padding: 24px 0 24px;
 }
 
 /*                 body section 1              */
@@ -187,7 +190,6 @@ img {
 
 .sec-two-container-spisok {
   margin-right: 24px;
-  width: calc((100% - 72px) / 4);
 }
 
 .visually-hidden {
@@ -201,6 +203,10 @@ img {
   clip-path: inset(100%);
   overflow: hidden;
   white-space: nowrap;
+}
+
+.sec-two-calc {
+  width: calc((100% - 72px) / 4);
 }
 
 
@@ -232,8 +238,7 @@ img {
 
 .sec-three-spisok-mar {
   background-color: #FFFFFF;
-  margin-right: 24px;
-  width: calc((100% - 72px) / 4);
+  margin-right: 24px; 
   border-radius: 0px 0px 4px 4px;
 }
 
@@ -253,6 +258,10 @@ img {
   letter-spacing: 0.02em;
   color: #434455;
   text-align: center;
+}
+
+.sec-three-calc {
+  width: calc((100% - 72px) / 4);
 }
 
 /*                 body section 4               */
