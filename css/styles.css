@@ -295,12 +295,12 @@ img {
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
-  width: calc((100% - 48px) / 6);
 }
 
 .sec-four-list {
   margin-right: 24px;
   margin-bottom: 48px;
+  width: calc((100% - 48px) / 3);
 }
 
 .sec-four-list-mar{
