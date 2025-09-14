@@ -9,7 +9,6 @@ img {
 }
 
 .container {
-  display: flex;
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px 0 15px;
@@ -25,6 +24,12 @@ img {
   clip: rect(0, 0, 0, 0);
   white-space: nowrap;
   border: 0;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
 }
 
 /*                     header                 */
@@ -170,7 +175,6 @@ img {
 .sec-two-container {
   display: flex;
   gap: 24px;
-  width: calc((100% - 72px) / 4);
 }
 
 .sec-two-zagolovok {
@@ -191,6 +195,7 @@ img {
 
 .sec-two-container-spisok {
   margin-right: 24px;
+  width: calc((100% - 72px) / 4);
 }
 
 .visually-hidden {
@@ -230,13 +235,13 @@ img {
 .sec-three-spisok {
   display: flex;
   gap: 24px;
-  width: calc((100% - 72px) / 4);
 }
 
 .sec-three-spisok-mar {
   background-color: #FFFFFF;
   margin-right: 24px; 
   border-radius: 0px 0px 4px 4px;
+  width: calc((100% - 72px) / 4);
 }
 
 .sec-three-fio {
@@ -295,12 +300,12 @@ img {
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
-  width: calc((100% - 48px) / 3);
 }
 
 .sec-four-list {
   margin-right: 24px;
   margin-bottom: 48px;
+  width: calc((100% - 48px) / 3);
 }
 
 .sec-four-list-mar{
@@ -323,14 +328,14 @@ img {
 
 .footer-logo {
   font-family: "Raleway", sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #4d5ae5;
-    display: inline-block;
-    margin-bottom: 16px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 .footer-span {
